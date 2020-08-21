@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* To make img full width and height */
+.main-section img{
+    width: 100%;
+    height: 100%;
+}
+
+/* To make label of form , place holder,label ,select right  */
+.main-section form{
+    direction: rtl;
+    text-align: right;
+}
+.main-section button{
+    width: 100%;
+}
+
+

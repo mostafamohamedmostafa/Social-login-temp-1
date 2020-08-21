@@ -18,24 +18,32 @@
     <section class="main-section container">
 
         <div class="row">
-            <div class="col-6">
-                <img src="img/intro.png" class="img-fluid" alt="">
+            <div class="col-lg-6 col-md-6">
+                <img src="img/intro.png" class="img-fluid" alt="intro-image">
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6  col-sm-12">
                 <form action="">
                     <div class="form-group">
-                        <label for="name">الاسم</label>
-                        <input type="text" class="form-control" name="name" id="user-name" aria-describedby="user-name"
-                            placeholder="يرجي ادخال الاسم بالكامل">
+                        <label class="label-right-align" for="user-name">الاسم</label>
+                        <input type="text" class="form-control" name="user-name" id="user-name"
+                            aria-describedby="user-name" placeholder="يرجي ادخال الاسم بالكامل" required>
 
-                        <label for="gender">النوع</label>
-                        <select class="form-control" name="gender" id="gender-input">
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="gender-input">النوع</label>
+                        <select class="form-control" name="gender-input" id="gender-input" required>
                             <option>ذكر</option>
                             <option>انثي</option>
                         </select>
 
-                        <label for="cites">المدينة</label>
-                        <select class="form-control" name="cites" id="cites-input">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cites-input">المدينة</label>
+                        <select class="form-control" name="cites-input" id="cites-input" required>
                             <option>الإسكندرية</option>
                             <option>الإسماعيلية</option>
                             <option>أسوان</option>
@@ -64,23 +72,38 @@
                             <option>المنيا</option>
                             <option>الوادي الجديد</option>
                         </select>
+                    </div>
 
-                        <label for="religion">الديانة</label>
-                        <select class="form-control" name="religion" id="religion-input">
+                    <div class="form-group">
+                        <label for="religion-input">الديانة</label>
+                        <select class="form-control" name="religion-input" id="religion-input" required>
                             <option>مسلم</option>
                             <option>مسحي</option>
                         </select>
+                    </div>
 
-                        <label for="date-of-birth">تاريخ الميلاد</label>
-                        <input type="date" class="form-control" name="date-of-birth" id="date-of-birth-input" >
+                    <div class="form-group">
+                        <label for="date-of-birth-input" >تاريخ الميلاد </label>
+                        <input type="date" class="form-control" name="date-of-birth-input" id="date-of-birth-input" required>
+                    </div>
 
 
-                        <label for="phone-number">رقم الموبايل</label>
-                        <input type="tel" class="form-control" name="phone-number" id="phone-number-input" type="number" placeholder="برجاء ادخال رقم موبايل بالكامل المكون من 11 رقم" >
+                    <div class="form-group">
 
-
+                        <label for="phone-number-input">رقم الموبايل</label>
+                        <input type="tel" class="form-control" name="phone-number-input" id="phone-number-input"
+                            placeholder="برجاء ادخال رقم موبايل بالكامل المكون من 11 رقم"
+                            maxlength="11" required>
 
                     </div>
+
+                    <div class="form-group">
+                        <label for="email-address-input">البريد الالكتروني</label>
+                        <input type="email" class="form-control" name="email-address-input" id="email-address-input"
+                            placeholder="برجاء ادخال البريد الالكتروني" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">التسجيل</button>
+
                 </form>
             </div>
         </div>
