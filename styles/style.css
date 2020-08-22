@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Merriweather', serif;
+    background-color: whitesmoke;
+}
+/* To make label of form , place holder,label ,select right  */
+
+.login-section form{
+    direction: rtl;
+    text-align: center;
+    margin: 1%;
+}
+
+
 /* To make img full width and height */
 .main-section img{
     width: 100%;
@@ -13,9 +26,82 @@
 .main-section form{
     direction: rtl;
     text-align: right;
+ }
+
+.login-section form{
+    direction: rtl;
+    text-align: center;
+ 
 }
+
+/* To make label button full width , margin top , border radius  */
+
 .main-section button{
     width: 100%;
+    margin-top: 1%;
+    border-radius: 58px 58px 58px 58px;
+    -moz-border-radius: 58px 58px 58px 58px;
+    -webkit-border-radius: 58px 58px 58px 58px;
+    border:2px solid white ;
+    background-color: #ffedc9;
+    color: black;
+    font-weight: 700;
+    -ms-border-radius: 58px 58px 58px 58px;
+    -o-border-radius: 58px 58px 58px 58px;
+}
+/* adding hover effects on button  */
+
+.main-section button:hover{
+    width: 100%;
+    margin-top: 1%;
+    border-radius: 58px 58px 58px 58px;
+    -moz-border-radius: 58px 58px 58px 58px;
+    -webkit-border-radius: 58px 58px 58px 58px;
+    border:2px solid lightgray ;
+    background-color: #ffedc9;
+    color: black;
+    font-weight: 700;
+    -ms-border-radius: 58px 58px 58px 58px;
+    -o-border-radius: 58px 58px 58px 58px;
+}
+
+
+/* To make margin bottom and top on form  */
+
+.form-group{
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+ 
+/* To make label  more bolder  */
+
+
+.form-group label{
+    font-weight: 600;
+}
+
+/* Adding border radius to form input  */
+
+
+.form-group input   {
+    border-radius: 58px 58px 58px 58px;
+    -moz-border-radius:;
+    -webkit-border-radius:;
+    border:2px solid white ;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+/* Adding border radius to form select  */
+
+.form-group select {
+    border-radius: 58px 58px 58px 58px;
+    -moz-border-radius:;
+    -webkit-border-radius:;
+    border: 2px solid white;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 

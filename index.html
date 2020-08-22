@@ -11,10 +11,47 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+<!--create Login FORM-->
+    <section class="login-section container">
+        <div class="row  ">
+            <div class="col">
+                <form>
+                    <div class="form-row  m-auto ">
+                        <div class="form-group  m-auto">
+                            <label for="user-name-login"> اسم المستخدم</label>
+                            <input type="text" class="form-control" name="user-name-login" id="user-name-login"
+                                aria-describedby="user-name-login" placeholder="يرجي ادخال الاسم المستخدم" required>
 
+                        </div>
+
+                        <div class="form-group  m-auto">
+                            <label for="user-password-login"> الرقم السري </label>
+                            <input type="password" class="form-control" name="user-password-login" id="user-name-login"
+                                aria-describedby="user-password" placeholder="يرجي ادخال الرقم السري " required>
+
+                        </div>
+
+                        <div class="form-group  m-auto">
+                            <button type="submit" class="btn btn-primary">الدخول</button>
+
+
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+<!--END Login FORM-->
+
+<!--create Sign UP FOrm-->
     <section class="main-section container">
 
         <div class="row">
@@ -83,8 +120,9 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="date-of-birth-input" >تاريخ الميلاد </label>
-                        <input type="date" class="form-control" name="date-of-birth-input" id="date-of-birth-input" required>
+                        <label for="date-of-birth-input">تاريخ الميلاد </label>
+                        <input type="date" class="form-control" name="date-of-birth-input" id="date-of-birth-input"
+                            required>
                     </div>
 
 
@@ -92,8 +130,7 @@
 
                         <label for="phone-number-input">رقم الموبايل</label>
                         <input type="tel" class="form-control" name="phone-number-input" id="phone-number-input"
-                            placeholder="برجاء ادخال رقم موبايل بالكامل المكون من 11 رقم"
-                            maxlength="11" required>
+                            placeholder="برجاء ادخال رقم موبايل بالكامل المكون من 11 رقم" maxlength="11" required>
 
                     </div>
 
@@ -107,20 +144,9 @@
                 </form>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
     </section>
 
+<!--End Sign UP FOrm-->
 
 
 
