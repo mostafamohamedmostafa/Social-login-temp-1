@@ -18,9 +18,9 @@
 <body>
 <!--create Login FORM-->
     <section class="login-section container">
-        <div class="row  ">
+        <div class="row">
             <div class="col">
-                <form action="" >
+                <form action=""  method="" id="login-form">
                     <div class="form-row  m-auto ">
                         <div class="form-group  m-auto">
                             <label for="user-name-login"> اسم المستخدم<i class="fas fa-user"></i></label>
@@ -59,7 +59,7 @@
                 <img src="img/intro.png" class="img-fluid" alt="intro-image">
             </div>
             <div class="col-lg-6 col-md-6  col-sm-12">
-                <form action="">
+                <form action="" method="" id="sign-up-form">
                     <div class="form-group">
                         <label  for="user-name">الاسم<i class="fas fa-user-edit"></i></label>
                         <input type="text" class="form-control" name="user-name" id="user-name"
@@ -130,7 +130,7 @@
 
                         <label for="phone-number-input">رقم الموبايل<i class="fas fa-mobile-alt"></i></label>
                         <input type="tel" class="form-control" name="phone-number-input" id="phone-number-input"
-                            placeholder="برجاء ادخال رقم موبايل بالكامل المكون من 11 رقم" maxlength="11" required>
+                            placeholder="برجاء ادخال رقم موبايل بالكامل المكون من 11 رقم" maxlength="11" minlength="11" required>
 
                     </div>
 
